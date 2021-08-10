@@ -27,6 +27,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dryer"
+    },
+    {
+      "name": "Gunpowder",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gunpowder"
     }
   ],
   "variable_elements": [],
