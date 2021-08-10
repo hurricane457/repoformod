@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "um:blocks/salt",
+    "up": "um:blocks/salt",
+    "north": "um:blocks/salt",
+    "east": "um:blocks/salt",
+    "south": "um:blocks/salt",
+    "west": "um:blocks/salt",
+    "particle": "um:blocks/saltbreak"
+  }
+}

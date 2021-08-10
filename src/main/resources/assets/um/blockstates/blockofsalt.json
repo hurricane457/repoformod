@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "um:block/blockofsalt"
+    }
+  }
+}
