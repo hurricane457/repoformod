@@ -36,12 +36,22 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gunpowder"
+    },
+    {
+      "name": "Dryerblock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dryerblock"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.um.dryerblock": "Dryer",
       "item.um.salt": "Salt",
       "block.um.blockofsalt": "Block of salt"
     }

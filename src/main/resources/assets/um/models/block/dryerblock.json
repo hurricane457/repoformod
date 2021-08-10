@@ -1,0 +1,11 @@
+{
+  "parent": "um:custom/fan",
+  "textures": {
+    "all": "um:blocks/case",
+    "particle": "um:blocks/case",
+    "0": "um:blocks/case",
+    "1": "um:blocks/fan",
+    "2": "um:blocks/inside_case",
+    "missing": "um:blocks/"
+  }
+}
