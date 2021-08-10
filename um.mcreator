@@ -25,7 +25,7 @@
   "language_map": {
     "en_us": {
       "item.um.salt": "Salt",
-      "block.um.blockofsalt": "Blockofsalt"
+      "block.um.blockofsalt": "Block of salt"
     }
   },
   "foldersRoot": {

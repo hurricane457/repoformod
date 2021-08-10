@@ -35,6 +35,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.um.item.SaltItem;
 import net.mcreator.um.UmModElements;
 
 import java.util.Random;
@@ -59,7 +60,7 @@ public class BlockofsaltBlock extends UmModElements.ModElement {
 	}
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.SAND).hardnessAndResistance(0.5f, 0.5f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.5f, 0.5f).setLightLevel(s -> 0));
 			setRegistryName("blockofsalt");
 		}
 
@@ -68,7 +69,7 @@ public class BlockofsaltBlock extends UmModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(SaltItem.block, (int) (4)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
