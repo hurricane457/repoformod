@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "um:salt"
+    },
+    "title": {
+      "translate": "advancements.whysosalty.title"
+    },
+    "description": {
+      "translate": "advancements.whysosalty.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "whysosalty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "um:blockofsalt",
+            "count": {
+              "min": 256,
+              "max": 1024
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10000
+  },
+  "parent": "minecraft:end/kill_dragon"
+}

@@ -1,4 +1,6 @@
 {
   "item.um.salt": "Salt",
-  "block.um.blockofsalt": "Block of salt"
+  "block.um.blockofsalt": "Block of salt",
+  "advancements.whysosalty.descr": "What?",
+  "advancements.whysosalty.title": "Why so salty?"
 }

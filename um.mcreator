@@ -27,6 +27,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "gunpowder"
+    },
+    {
+      "name": "Whysosalty",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whysosalty"
     }
   ],
   "variable_elements": [],
@@ -34,7 +43,9 @@
   "language_map": {
     "en_us": {
       "item.um.salt": "Salt",
-      "block.um.blockofsalt": "Block of salt"
+      "block.um.blockofsalt": "Block of salt",
+      "advancements.whysosalty.descr": "What?",
+      "advancements.whysosalty.title": "Why so salty?"
     }
   },
   "foldersRoot": {
