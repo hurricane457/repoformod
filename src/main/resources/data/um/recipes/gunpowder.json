@@ -1,0 +1,22 @@
+{
+  "group": "um",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "um:salt"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:stone_shovel"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gunpowder",
+    "count": 5
+  }
+}

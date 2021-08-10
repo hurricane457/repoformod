@@ -18,6 +18,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "salt"
+    },
+    {
+      "name": "Gunpowder",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gunpowder"
     }
   ],
   "variable_elements": [],

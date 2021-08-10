@@ -35,6 +35,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.um.item.SaltItem;
 import net.mcreator.um.UmModElements;
 
 import java.util.Random;
@@ -59,7 +60,7 @@ public class BlockofsaltBlock extends UmModElements.ModElement {
 	}
 	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.SAND).hardnessAndResistance(0.5f, 0.5f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.5f, 0.5f).setLightLevel(s -> 0));
 			setRegistryName("blockofsalt");
 		}
 
@@ -68,7 +69,7 @@ public class BlockofsaltBlock extends UmModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(SaltItem.block, (int) (4)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;
@@ -105,7 +106,7 @@ public class BlockofsaltBlock extends UmModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 13)).range(64)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(64)
 					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("blockofsalt"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("um:blockofsalt"), configuredFeature);
