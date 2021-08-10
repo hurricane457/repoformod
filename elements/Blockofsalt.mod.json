@@ -43,16 +43,16 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Salt"
+      "value": ""
     },
-    "dropAmount": 4,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "SAND"
+      "value": "ROCK"
     },
     "tickRate": 10,
     "tickRandomly": false,

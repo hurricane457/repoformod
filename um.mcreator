@@ -18,6 +18,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "salt"
+    },
+    {
+      "name": "Dryer",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dryer"
     }
   ],
   "variable_elements": [],
