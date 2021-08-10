@@ -45,13 +45,21 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dryerblock"
+    },
+    {
+      "name": "Whysosalty",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whysosalty"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.um.dryerblock": "Dryer",
       "item.um.salt": "Salt",
       "block.um.blockofsalt": "Block of salt"
     }
