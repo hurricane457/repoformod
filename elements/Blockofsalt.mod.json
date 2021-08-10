@@ -32,11 +32,11 @@
         "subtract": false
       }
     ],
-    "name": "Blockofsalt",
+    "name": "Block of salt",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
-    "hasGravity": false,
+    "hardness": 0.5,
+    "resistance": 0.5,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
@@ -72,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "SAND"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -101,16 +101,55 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
-    "restrictionBiomes": [],
-    "blocksToReplace": [
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
       {
-        "value": "Blocks.STONE"
+        "value": "ocean"
+      },
+      {
+        "value": "river"
+      },
+      {
+        "value": "frozen_ocean"
+      },
+      {
+        "value": "frozen_river"
+      },
+      {
+        "value": "deep_ocean"
+      },
+      {
+        "value": "warm_ocean"
+      },
+      {
+        "value": "lukewarm_ocean"
+      },
+      {
+        "value": "cold_ocean"
+      },
+      {
+        "value": "deep_warm_ocean"
+      },
+      {
+        "value": "deep_lukewarm_ocean"
+      },
+      {
+        "value": "deep_cold_ocean"
+      },
+      {
+        "value": "deep_frozen_ocean"
       }
     ],
-    "frequencyPerChunks": 10,
+    "blocksToReplace": [
+      {
+        "value": "Blocks.SAND#0"
+      }
+    ],
+    "frequencyPerChunks": 1,
     "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
+    "minGenerateHeight": 40,
     "maxGenerateHeight": 64
   }
 }
