@@ -105,7 +105,7 @@ public class BlockofsaltBlock extends UmModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 16)).range(64)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 13)).range(64)
 					.square().func_242731_b(1);
 			event.getRegistry().register(feature.setRegistryName("blockofsalt"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("um:blockofsalt"), configuredFeature);
