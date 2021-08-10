@@ -20,6 +20,15 @@
       "registry_name": "salt"
     },
     {
+      "name": "Dryer",
+      "type": "gui",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dryer"
+    },
+    {
       "name": "Gunpowder",
       "type": "recipe",
       "sortid": 4,
