@@ -2,15 +2,6 @@
   "id_map": {},
   "mod_elements": [
     {
-      "name": "Purifiedflesh",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "purifiedflesh"
-    },
-    {
       "name": "Blockofsalt",
       "type": "block",
       "sortid": 2,
@@ -18,14 +9,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "blockofsalt"
+    },
+    {
+      "name": "Salt",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.um.purifiedflesh": "Purified rotten flesh",
-      "block.um.blockofsalt": "Block of salt"
+      "item.um.salt": "Salt",
+      "block.um.blockofsalt": "Blockofsalt"
     }
   },
   "foldersRoot": {

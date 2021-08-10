@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "purified_rotten_flesh",
+    "texture": "salt",
     "customModelName": "Normal",
-    "name": "Purified rotten flesh",
+    "name": "Salt",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
